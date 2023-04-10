@@ -13,10 +13,7 @@ if (number > number2)
     if (number > number3)
         Console.WriteLine("Max={0}", number);
     else 
-        {
-        
         Console.WriteLine("Max={0}", number3);
-        }
 else
     if (number2 > number3)
         Console.WriteLine("Max={0}", number2);
