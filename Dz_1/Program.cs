@@ -2,5 +2,12 @@
 //a = 5; b = 7 -> max = 7
 //a = 2 b = 10 -> max = 10
 //a = -9 b = -3 -> max = -3
-
-Console 
+Console.WriteLine("Введите первое число");
+int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число");
+int number2 = Convert.ToInt32(Console.ReadLine());
+if (number > number2)
+    Console.WriteLine($"MAX = {number}, MIN = {number2}");
+else    
+    Console.WriteLine("MAX = {1}, MIN = {0}", number, number2);
+    
