@@ -2,7 +2,7 @@
 // 14212 -> нет
 // 12821 -> да
 // 23432 -> да
-Console.WriteLine("Введите число");
+Console.WriteLine("Введите число");                         // Конкретно для пяти чесел легко. Поэтому я писал для любого чЁного числа.
 int numbers = Convert.ToInt32(Console.ReadLine());          // я мог бы написать методы сам. Но так как мне лень, я использовал встроеные :)
 int Numbers = numbers;                                       
 int [] myArray = new int [numbers.ToString().Length];       // конвертируем число в строку на всю длину массива
