@@ -25,4 +25,4 @@ int number(int [] array )
 }
 int [] myArray = new int [new Random().Next(10,50)];
 FillArray(myArray);
-Console.WriteLine("["+ String.Join(",", myArray)+ "] -> "+number(myArray) );
+Console.WriteLine("["+ String.Join(",", myArray)+ "] -> "+number(myArray) ) ;
