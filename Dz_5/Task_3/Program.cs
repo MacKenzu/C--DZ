@@ -31,4 +31,4 @@ return result;
 }
 int [] myArray = new int [new Random().Next(20)];
 FillArray(myArray);
-Console.WriteLine("["+ String.Join(",", myArray)+ "] -> "+sum(myArray)); 
+Console.WriteLine("["+ String.Join(",", myArray)+ "] -> "+sum(myArray));  
