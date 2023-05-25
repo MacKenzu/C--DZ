@@ -1,4 +1,7 @@
-﻿Console.WriteLine("Введите размерность двумерного массива М , N");
+﻿//Задача 52. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
+
+
+Console.WriteLine("Введите размерность двумерного массива М , N");
 int[] array = Console.ReadLine().Split().Select(int.Parse).ToArray();
 int[,] myarray = new int[array[0], array[1]];
 for (int i = 0; i < myarray.GetLength(0); i++)
